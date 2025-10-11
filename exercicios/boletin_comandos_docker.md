@@ -2,7 +2,7 @@
 
 ---
 
-## 1️⃣ Verificación inicial
+## 1. Verificación inicial
 **Obxectivo:** Comprobar que Docker está correctamente instalado.  
 **Instrucións:**
 1. Mostra a versión do motor Docker e do cliente.
@@ -11,7 +11,7 @@
 
 ---
 
-## 2️⃣ Buscar imaxes en Docker Hub
+## 2. Buscar imaxes en Docker Hub
 **Obxectivo:** Practicar o comando `docker search`.  
 **Instrucións:**
 - Busca imaxes oficiais de **nginx** e **mysql**.
@@ -20,7 +20,7 @@
 
 ---
 
-## 3️⃣ Descargar imaxes
+## 3. Descargar imaxes
 **Obxectivo:** Usar `docker pull` para obter imaxes locais.  
 **Instrucións:**
 - Descarga as imaxes: `nginx`, `httpd`, `mysql:5.7`.
@@ -28,7 +28,7 @@
 
 ---
 
-## 4️⃣ Crear un contedor web básico
+## 4. Crear un contedor web básico
 **Obxectivo:** Executar o teu primeiro contedor web.  
 **Instrucións:**
 - Usa a imaxe `nginx`.
@@ -38,7 +38,7 @@
 
 ---
 
-## 5️⃣ Parar e eliminar contedores
+## 5. Parar e eliminar contedores
 **Obxectivo:** Controlar a execución e limpeza de contedores.  
 **Instrucións:**
 - Detén o contedor `web1`.
@@ -47,7 +47,7 @@
 
 ---
 
-## 6️⃣ Executar un contedor Apache con nome e porto
+## 6. Executar un contedor Apache con nome e porto
 **Obxectivo:** Crear un contedor de Apache accesible dende o host.  
 **Instrucións:**
 - Usa a imaxe `httpd`.
@@ -56,7 +56,7 @@
 
 ---
 
-## 7️⃣ Consultar logs e procesos
+## 7. Consultar logs e procesos
 **Obxectivo:** Inspeccionar a actividade dun contedor.  
 **Instrucións:**
 - Mostra os logs do contedor `apache1`.
@@ -64,7 +64,7 @@
 
 ---
 
-## 8️⃣ Acceder á consola dun contedor
+## 8. Acceder á consola dun contedor
 **Obxectivo:** Entrar no sistema interno dun contedor.  
 **Instrucións:**
 - Accede á shell do contedor `apache1`.
@@ -73,7 +73,7 @@
 
 ---
 
-## 9️⃣ Crear un contedor MySQL configurado
+## 9. Crear un contedor MySQL configurado
 **Obxectivo:** Probar o uso de variables de entorno.  
 **Instrucións:**
 - Usa a imaxe `mysql:5.7`.
@@ -82,7 +82,7 @@
 
 ---
 
-## 🔟 Inspeccionar contedores e imaxes
+## 10. Inspeccionar contedores e imaxes
 **Obxectivo:** Consultar detalles técnicos.  
 **Instrucións:**
 - Inspecciona o contedor `apache1`.
@@ -90,7 +90,7 @@
 
 ---
 
-## 11️⃣ Crear unha imaxe personalizada a partir dun contedor
+## 11. Crear unha imaxe personalizada a partir dun contedor
 **Obxectivo:** Xerar unha nova imaxe.  
 **Instrucións:**
 - A partir do contedor `apache1`, crea unha nova imaxe chamada `apache-personal`.
@@ -98,7 +98,7 @@
 
 ---
 
-## 12️⃣ Eliminar e restaurar unha imaxe
+## 12. Eliminar e restaurar unha imaxe
 **Obxectivo:** Practicar copia e restauración de imaxes.  
 **Instrucións:**
 - Garda a imaxe `apache-personal` nun ficheiro `apache.tar`.
@@ -107,7 +107,7 @@
 
 ---
 
-## 13️⃣ Crear un contedor con volume local
+## 13. Crear un contedor con volume local
 **Obxectivo:** Probar montaxes de directorios.  
 **Instrucións:**
 - Crea o directorio `/web` no host.
@@ -117,7 +117,7 @@
 
 ---
 
-## 14️⃣ Crear un volume nomeado e empregalo
+## 14. Crear un volume nomeado e empregalo
 **Obxectivo:** Empregar volumes xestionados por Docker.  
 **Instrucións:**
 - Crea un volume chamado `datosapp`.
@@ -125,7 +125,7 @@
 
 ---
 
-## 15️⃣ Comprobar información dun volume
+## 15. Comprobar información dun volume
 **Obxectivo:** Usar o comando `docker volume inspect`.  
 **Instrucións:**
 - Inspecciona o volume `datosapp`.
@@ -133,7 +133,7 @@
 
 ---
 
-## 16️⃣ Limitar recursos dun contedor
+## 16. Limitar recursos dun contedor
 **Obxectivo:** Controlar consumo de memoria.  
 **Instrucións:**
 - Crea un contedor `apache-limit` con `httpd`.
@@ -141,14 +141,14 @@
 
 ---
 
-## 17️⃣ Configurar reinicio automático
+## 17. Configurar reinicio automático
 **Obxectivo:** Probar políticas de reinicio.  
 **Instrucións:**
 - Crea un contedor `nginx-auto` que se reinicie automaticamente salvo que o detés explicitamente.
 
 ---
 
-## 18️⃣ Exposición automática de portos
+## 18. Exposición automática de portos
 **Obxectivo:** Empregar o parámetro `-P`.  
 **Instrucións:**
 - Lanza un contedor `apache-auto` con `httpd` e o parámetro `-P`.
@@ -156,7 +156,7 @@
 
 ---
 
-## 19️⃣ Etiquetar unha imaxe personalizada
+## 19. Etiquetar unha imaxe personalizada
 **Obxectivo:** Aprender o uso de `docker tag`.  
 **Instrucións:**
 - Etiqueta a imaxe `apache-personal` co nome `usuario/apache-lab:v1`.
@@ -164,7 +164,7 @@
 
 ---
 
-## 20️⃣ Subir unha imaxe a Docker Hub
+## 20. Subir unha imaxe a Docker Hub
 **Obxectivo:** Publicar a imaxe creada.  
 **Instrucións:**
 - Inicia sesión co teu usuario de Docker Hub.
