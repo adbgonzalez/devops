@@ -1,4 +1,4 @@
-# 🧾 Boletín de exercicios prácticos de Docker (20 tarefas)
+# Boletín de exercicios prácticos de Docker
 
 ---
 

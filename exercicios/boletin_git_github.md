@@ -97,7 +97,7 @@
 
 ---
 
-## 10. Creación dun fork e *pull request* (exercicio conceptual)
+## 10. Creación dun fork e *pull request* 
 **Obxectivo:** Comprender o fluxo colaborativo con GitHub.  
 **Instrucións:**
 1. Realiza un **fork** dun repositorio público en GitHub.  

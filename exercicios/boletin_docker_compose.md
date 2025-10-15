@@ -1,4 +1,4 @@
-# Boletín de Docker Compose (enunciados detallados)
+# Boletín de Docker Compose
 
 ## 1. Servidor web estático con Nginx
 **Obxectivo:** Servir unha páxina HTML estática mediante Docker Compose.
