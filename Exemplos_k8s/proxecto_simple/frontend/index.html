@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frontend</title>
+</head>
+<body>
+  <h1>Frontend básico!</h1>
+  <p id="response">Cargando resposta do backend...</p>
+  <script>
+    fetch('/api/')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('response').innerText = data;
+      })
+      .catch(error => {
+        document.getElementById('response').innerText = 'Erro ao conectar co backend';
+        console.error('Erro:', error);
+      });
+  </script>
+</body>
+</html>
