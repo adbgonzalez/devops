@@ -8,6 +8,7 @@ Este repositorio recolle materiais, exercicios e solucións relacionados co curs
 
 - **`images/`** → Imaxes e recursos gráficos empregados nos materiais.  
 - **`exercicios/`** → Exercicios prácticos para aplicar os conceptos vistos en cada tema.  
+- **`laboratorios/`** → Prácticas guiadas desenvolvidas durante as titorías presenciais.  
 - **`solucions/`** → Posibles solucións ou exemplos resoltos dos exercicios.  
 
 ---
@@ -21,7 +22,9 @@ Cada tema está desenvolvido en formato Markdown e inclúe exemplos prácticos, 
 3. [03.Contedores.md](03.Contedores.md) — Conceptos fundamentais de contedores e virtualización lixeira.  
 4. [04.Docker-comandos.md](04.Docker-comandos.md) — Comandos básicos e avanzados de Docker.  
 5. [05.Docker-Dockerfile.md](05.Docker-Dockerfile.md) — Creación de imaxes personalizadas con Dockerfile.  
-6. [06.Docker-compose.md](06.Docker-compose.md) — Orquestración de servizos con Docker Compose.
+6. [06.Docker-compose.md](06.Docker-compose.md) — Despregamento de servizos con Docker Compose.
+7. [07.kubernetes.md](07.kubernetes.md) — Orquestración de servizos con Kubernetes.
+8. [08.seguridade_en_contedores.md](08.seguridade_en_contedores.md) - Consideracións de seguridade no uso de contedores
 
 ---
 
